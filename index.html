@@ -3,49 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>A Recipe Website for Good Recipes</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div class="container clear-fix">
-            <!-- Header bar with website name, browse, and search bar -->
+        <nav class="container clearfix">
+        	<!-- Need help fixing height of buttons and centering the text in them -->
             <ul>
-                <li><a href="index.html" class="active">I've come up with a new recipeh!</a></li>
-                <li><a href="#">Whatchu want fam?</a></li>
-                <li><a href="#">Looking for something?</a></li>
+                <li class="grid_4 alpha home active"><a href="index.html"><img class="icon" src="img/icon.png"></img></a><a class="icon-font-home" href="index.html">Probably Not a Carrot</a></li>
+                <li class="grid_2"><a href="about.html">About</a></li>
+                <li class="grid_2"><a href="projects.html">Projects</a></li>
+                <li class="grid_2"><a href="writeups.html">Writeups</a></li>
+                <li class="grid_2 omega"><a href="contact.html">Contact</a></li>	
             </ul>
-        </div>
+        </nav>
     </header>
-    <br>
-    <div class="container clear-fix">
-        <div class="thumbnail-image">
-            <a href="lemonade.html">
-                <img src="img/cucumber-lemonade.jpg" height="250" width="430">
-            </a>
-            <div class="thumbnail-desc">
-                <p>Click that picture for some sweet food.</p>
-            </div>
-        </div>
-        <div class="sidebar">
-            <ul>
-                <li>This is a sidebar.</li>
-                <li>Item</li>
-                <li>Itemmmm</li>
-            </ul>
-        </div>
-        <br class="clear">
-    </div>
-    <br>
-    <footer>
-        <div class="container clear-fix">
-            <ul>
-                <li><a href="about.html">About us!</a></li>
-                <li><a href="contact.html">Contact us!</a></li>
-            </ul>
-        </div>
-    </footer>
 </body>
 
 </html>
